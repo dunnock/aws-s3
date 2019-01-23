@@ -1,13 +1,11 @@
 {
-  "name": "aws-s3",
-  "version": "1.5.6",
+  "name": "@maxsparrow/aws-s3",
+  "version": "1.5.8",
   "description": "S3Client - A Javascript Library for AWS S3 File Upload",
-  "author": {
-    "name": "Faustino Kialungila"
-  },
-  "main": "cjs/aws-s3.js",
-  "module": "esm/aws-s3.js",
-  "unpkg": "umd/aws-s3.js",
+  "author": "Faustino Kialungila",
+  "main": "cjs/@maxsparrow/aws-s3.js",
+  "module": "esm/@maxsparrow/aws-s3.js",
+  "unpkg": "umd/@maxsparrow/aws-s3.js",
   "scripts": {
     "build": "node ./scripts/build.js",
     "clean": "rm -rf lib",
@@ -59,9 +57,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Fausto95/aws-s3"
+    "url": "git+https://github.com/Fausto95/aws-s3.git"
   },
   "bugs": {
     "url": "https://github.com/Fausto95/aws-s3/issues"
-  }
+  },
+  "homepage": "https://github.com/Fausto95/aws-s3#readme"
 }
